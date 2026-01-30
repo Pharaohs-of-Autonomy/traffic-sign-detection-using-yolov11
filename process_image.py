@@ -6,7 +6,7 @@ from ultralytics import YOLO
 detector = YOLO("./model/traffic_sign_detector.pt", task="detect")
 
 # path to the image
-img_path = "./data/input/stop_sign.jpg"
+img_path = "./data/input/green_light.jpg"
 
 # to visualize detections
 
